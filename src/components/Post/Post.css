@@ -1,0 +1,111 @@
+.post {
+  margin: 20px 20px auto 20px;
+  height: fit-content;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  width: 614px;
+  border-radius: 4px;
+}
+
+.post_image {
+  max-width: 614px;
+  object-fit: contain;
+}
+
+.post_image:hover {
+  cursor: pointer;
+}
+
+.post_username {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+}
+
+.post_username:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.post_avatar {
+  margin: 0 15px;
+}
+
+.post_avatar:hover {
+  cursor: pointer;
+}
+
+.post_action {
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.post_action img {
+  margin: 15px;
+}
+
+.post_action img:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.post_like,
+.post_caption {
+  padding: 5px 15px;
+}
+
+.post_like:hover {
+  cursor: pointer;
+}
+
+.post_caption {
+  margin-bottom: 20px;
+}
+
+.post_caption_text {
+  display: flex;
+  flex-direction: row;
+}
+
+.post_caption_text h4 {
+  margin-right: 5px;
+}
+
+.post_caption_text h4:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.post_description {
+  height: 216px;
+}
+
+.post_add_comments {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 53px;
+}
+
+.post_add_comments input {
+  margin-right: 8px;
+  border: none;
+  padding: 15px;
+  width: 520px;
+}
+
+.post_add_comments input:focus {
+  outline-width: 0;
+}
+
+.post_add_comments h4 {
+  padding: 15px;
+  color: #0095f6;
+}
+
+.post_add_comments h4:hover {
+  cursor: pointer;
+}
