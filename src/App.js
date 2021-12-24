@@ -34,9 +34,9 @@ export default function App() {
       <HeaderBar />
 
       {/* posts*/}
-      {posts.map((post, index) => (
+      {posts.map((post) => (
         <Post
-          index={post.id}
+          key={post.id}
           username={post.username}
           avatar={post.avatar}
           image={post.image}
