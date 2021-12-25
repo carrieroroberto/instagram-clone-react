@@ -24,8 +24,10 @@ export default function App() {
   //app
   return (
     <div className="app">
+      {/* header bar */}
       <HeaderBar />
 
+      {/* posts */}
       {posts.map((post) => (
         <Post
           key={post.id}
