@@ -9,11 +9,11 @@ export default function App() {
   // state
   const [posts, setPosts] = useState([]);
 
-  const colRef = collection(db, "posts");
+  const col = collection(db, "posts");
 
   useEffect(() => {
     let newPosts = [...posts];
-    getDocs(colRef).then((snapshot) => {
+    getDocs(col).then((snapshot) => {
       snapshot.docs.forEach((doc) => {
         newPosts.push({ id: doc.id, data: doc.data() });
       });
