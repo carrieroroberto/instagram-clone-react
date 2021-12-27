@@ -14,3 +14,50 @@
   width: 100vw;
   background-color: #fafafa;
 }
+
+.header_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 59px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 0px 20px;
+}
+
+.header_bar_logo {
+  object-fit: contain;
+  margin-top: 8px;
+}
+
+.header_bar_buttons button {
+  padding: 3px;
+  margin: 5px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+}
+
+.modal_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.modal_content input {
+  width: 300px;
+}
