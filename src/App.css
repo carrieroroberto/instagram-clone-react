@@ -5,6 +5,10 @@
   font-size: 16px;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 .app {
   height: 100%;
   width: 100vw;
